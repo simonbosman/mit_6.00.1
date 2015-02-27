@@ -1,0 +1,9 @@
+1. make a list of words from the text
+2. set key shift variable to 0
+3. set wordcounter variable to 0
+4. set best key shift variable to 0
+5. for every key shift in range 26
+	5.1 applyshift
+	5.2 for every deciphered word check if it is in the 	wordlist. yes add one to wordcounter
+	5.3 if wordcounter > wordcounter set best key shift to 	key shift
+6. when all shift keys are tryed best key shift is the key shift to use to decode the message
