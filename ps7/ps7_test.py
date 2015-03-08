@@ -205,6 +205,6 @@ if __name__ == "__main__":
     suite = unittest.TestSuite()
     suite.addTest(unittest.makeSuite(ProblemSet7NewsStory))
     suite.addTest(unittest.makeSuite(ProblemSet7))
-#    unittest.TextTestRunner(verbosity=2).run(suite)
+  # unittest.TextTestRunner(verbosity=2).run(suite)
     unittest.TextTestRunner(verbosity=2, stream=sys.stdout).run(suite) 
 

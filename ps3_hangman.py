@@ -12,7 +12,7 @@
 import random
 import string
 
-WORDLIST_FILENAME = "C:\Users\s.bosman.DEWALICT\Desktop\MIT 600.1\wordlist.txt"
+WORDLIST_FILENAME = "/home/simon/Source/mit_600.1/wordlist.txt"
 
 def loadWords():
     """
